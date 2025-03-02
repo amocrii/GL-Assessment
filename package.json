@@ -1,0 +1,20 @@
+{
+  "name": "gl-assessment",
+  "version": "1.0.0",
+  "description": "Assessment for Glass Lewis using Playwright and Cucumber frameworks",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js test",
+    "report": "npx ts-node ./report.ts"
+  },
+  "author": "Alin Mocrii",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.8",
+    "dotenv": "^16.4.7",
+    "multiple-cucumber-html-reporter": "^3.9.2",
+    "ts-node": "^10.9.2"
+  }
+}
