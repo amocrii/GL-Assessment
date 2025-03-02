@@ -4,7 +4,7 @@
   "description": "Assessment for Glass Lewis using Playwright and Cucumber frameworks",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js test",
+    "test": "cucumber-js",
     "report": "npx ts-node ./report.ts"
   },
   "author": "Alin Mocrii",

@@ -5,9 +5,8 @@
             "src/hooks/hooks.ts"
         ],
         "paths": [
-            "src/test/features/"
+            "src/test/features/**/*.feature"
         ],
-        "publishQuiet": true,
         "dryRun": true,
         "formatOptions": {
             "snippetInterface": "async-await"
@@ -16,6 +15,9 @@
             "progress-bar",
             "html:test-results/cucumber-report.html",
             "json:test-results/cucumber-report.json"
+        ],
+        "requireModule": [
+            "ts-node/register"
         ]
     }
 }

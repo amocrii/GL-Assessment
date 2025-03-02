@@ -5,4 +5,6 @@ dotenv.config();
 
 export const config = {
   applicationUrl: process.env.APPLICATION_URL || 'https://viewpoint.glasslewis.com/WD/?siteId=DemoClient',
+  browser: process.env.BROWSER || 'chromium', 
+  headless: process.env.HEADLESS === 'true',
 };
