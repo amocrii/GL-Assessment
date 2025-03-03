@@ -26,7 +26,7 @@ BeforeAll(async function () {
           browserLauncher = chromium;
           break;
     }
-    browser = await chromium.launch({ headless: config.headless });
+    browser = await browserLauncher.launch({ headless: config.headless });
 })
 
 After(async function (scenario) {
